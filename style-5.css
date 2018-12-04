@@ -1,0 +1,45 @@
+#container{
+	display: flex;
+	height: 500px;
+	width: 900px;
+	flex-wrap: wrap;
+	justify-content: center;
+    text-align: center;
+    border:4px solid black;
+    border-radius: 20px 20px 0 0;
+}
+.container1{
+    flex:1 1 calc(33.33% - 30px); /* отнимем margin и скажем растягиваться */
+	
+	box-sizing:border-box; /* чтобы внутренний отступ не влиял когда там будет текст... */
+    padding:50px 20px; font-size:400%; text-align:center; background:#b5ced8; /* для красоты */
+
+}
+#block1{
+	background: #fc0;
+	border-radius:  20px 0 0 0;
+    text-align: center;
+	flex-basis: 400px;
+}
+#block2{
+	background: yellow;
+	border-radius: 0 20px 0 0;
+	flex-basis: 400px;
+}
+#block3{
+	background: purple;
+	display: flex;
+	flex-basis: 300px;
+}
+
+#block4{
+	background: blue;
+	display: flex;
+	flex-basis: 300px;
+}
+#block5{
+	background: green;
+	display: flex;
+	flex-basis: 300px;
+}
+

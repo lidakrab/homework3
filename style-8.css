@@ -1,0 +1,144 @@
+body{
+	background: white;
+}
+.flex-container{
+	justify-content: center;
+	display: flex;
+   	width:100%;
+   	height: 100%;
+   	flex-wrap: wrap; 
+   	position: center;
+   	flex-direction: column;
+  }
+  .flex-container2{
+	justify-content: center;
+	display: flex;
+   	width:400px;
+   	height: 100%;
+   	flex-wrap: wrap; 
+   	position: center;
+   	position: relative;
+   	bottom: 1535px;
+   	left: 275px;
+ }
+ #gor1{
+ 	width: 1100px;
+ 	position: relative;
+ 	bottom: 2460px;
+ 	left: 118px;
+ }
+ #ver1{
+ 	height: 900px;
+ 	width: 8px;
+ 	background: black;
+ 	position: relative;
+ 	right:  430px;
+ 	bottom: 900px;
+ }
+ #ver2{
+ 	height: 920px;
+ 	width: 8px;
+ 	background: black;
+ 	position: relative;
+ 	right: -225px;
+ 	bottom: 900px;
+ }
+
+  .flex-container3{
+	justify-content: center;
+	display: flex;
+   	width:100%;
+   	height: 100%;
+   	flex-wrap: wrap; 
+   	position: relative;
+   	bottom: 2440px;
+   	left:-82px;
+  }
+  .cont2{
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 6px;
+	flex-basis:300px;
+	margin-right: 6px; 
+
+  }
+.cont1{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 6px;
+	flex-basis:300px;
+	margin-right: 6px; 
+
+}
+.cont{
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 190px;
+	margin-bottom: 6px;
+}
+#container1{
+	background: red;
+	flex-basis: 200px;
+	height: 200px;
+	width: 200px;
+}
+#container2{
+	background: green;
+	flex-basis:200px ;
+	width: 200px;
+	height: 200px;
+	}
+#container3
+{
+	background: blue;
+	flex-basis: 200px;
+	width: 200px;
+	height: 200px;
+	
+}
+#container4{
+	background: red;
+	flex-basis: 420px;
+	height: 100px;
+	
+	
+}
+#container5{
+	background: green;
+	flex-basis:192px ;
+	width: 170px;
+	height: 200px;
+	}
+#container6
+{
+	background: blue;
+	flex-basis: 192px;
+	width: 170px;
+	height: 200px;
+	
+}
+#container7{
+	background: red;
+	flex-basis: 200px;
+	height: 200px;
+	width: 200px;
+}
+#container8{
+	background: green;
+	flex-basis:200px ;
+	width: 200px;
+	height: 200px;
+	}
+#container9
+{
+	background: blue;
+	flex-basis: 200px;
+	width: 200px;
+	height: 200px;
+	
+}
